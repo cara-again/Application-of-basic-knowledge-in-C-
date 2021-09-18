@@ -1,0 +1,2 @@
+F:\github项目\package_test\package_test\Debug\package_test.exe
+F:\github项目\package_test\package_test\Debug\package_test.pdb
