@@ -1,0 +1,2 @@
+F:\github项目\STL\STL_score\Debug\STL_score.exe
+F:\github项目\STL\STL_score\Debug\STL_score.pdb
