@@ -1,0 +1,59 @@
+﻿  main.cpp
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xutility(1544,1): error C3848: 具有类型“const Compare”的表达式会丢失一些 const-volatile 限定符以调用“bool Compare::operator ()(const Person &,const Person &)”
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xutility(1543): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const Compare&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Kty=Person,
+              _Keyty=Person,
+              _Pr=const Compare &,
+              _Ty1=const Person &,
+              _Ty2=const Person &
+          ]
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xtree(1002): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=Compare,
+              _Key=Person,
+              _Keyty=Person
+          ]
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xtree(1009): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=Compare,
+              _Key=Person,
+              _Keyty=Person
+          ]
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xtree(1333): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=Compare
+          ]
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xtree(1333): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=Compare
+          ]
+F:\github项目\STL_pair\STL_pair\pair\main.cpp(85): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=Compare,
+              _Alloc=std::allocator<Person>
+          ]
+F:\github项目\STL_pair\STL_pair\pair\main.cpp(85): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=Compare,
+              _Alloc=std::allocator<Person>
+          ]
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xutility(1544,5): error C2056: 非法表达式
+E:\ins_vs2019\VC\Tools\MSVC\14.27.29110\include\xutility(1544,39): error C2056: 非法表达式
